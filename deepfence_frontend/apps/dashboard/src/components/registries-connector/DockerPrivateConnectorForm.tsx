@@ -29,7 +29,7 @@ export const DockerPriavateConnectorForm = ({
     <>
       <div className="text-p4a text-text-input-value mt-1.5 mb-4">
         Using Certificate based Docker client Authentication? A custom certificate is
-        configured by creating a directory under /etc/docker/certs.d on Deepfence console
+        configured by creating a directory under /etc/docker/certs.d on AssetVigil console
         machine, using the same name as the registry&apos;s hostname provided above. All
         *.crt files are added to this directory as CA roots &nbsp;
         <DFLink

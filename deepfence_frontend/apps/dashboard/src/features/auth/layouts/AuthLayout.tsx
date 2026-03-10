@@ -126,7 +126,7 @@ export const AuthLayout = () => {
           <div className="flex mt-4">
             <DeepfenceLogo />
             <span className="dark:text-text-input-value text-white text-h2 font-normal ml-1">
-              Deepfence
+              AssetVigil
             </span>
           </div>
           <Card className={cn('w-[360px] px-14 py-12 my-4 rounded-[15px] bg-bg-page')}>

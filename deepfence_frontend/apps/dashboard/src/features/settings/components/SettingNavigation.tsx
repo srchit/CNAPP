@@ -33,10 +33,6 @@ const MenuItems: Array<{
     to: '/settings/email-configuration',
   },
   {
-    title: 'Global settings',
-    to: '/settings/global-settings',
-  },
-  {
     title: 'Connection instructions',
     to: '/settings/connection-instructions',
   },

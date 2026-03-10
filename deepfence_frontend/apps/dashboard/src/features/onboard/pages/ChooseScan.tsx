@@ -52,19 +52,19 @@ const cloudComplianceScanData = {
 const vulnerabilityScanData = {
   scanTitle: 'Vulnerability Scan',
   scanType: ScanTypeEnum.VulnerabilityScan,
-  description: `Your infrastructure and applications depend on third-party components, and if vulnerabilities are ever found, attackers will rush to create and deliver exploits. Deepfence ThreatMapper categorizes and prioritizes vulnerabilities so you know what you need to fix first.`,
+  description: `Your infrastructure and applications depend on third-party components, and if vulnerabilities are ever found, attackers will rush to create and deliver exploits. AssetVigil ThreatMapper categorizes and prioritizes vulnerabilities so you know what you need to fix first.`,
   buttonText: 'Configure Vulnerability Scan',
 };
 const secretScanData = {
   scanTitle: 'Secret Scan',
   scanType: ScanTypeEnum.SecretScan,
-  description: `Deepfence Secret Scan can find unprotected secrets in container images or file systems. Deepfence SecretScanner helps users scan their container images or local directories on hosts and outputs a JSON file with details of all the secrets found.`,
+  description: `AssetVigil Secret Scan can find unprotected secrets in container images or file systems. AssetVigil SecretScanner helps users scan their container images or local directories on hosts and outputs a JSON file with details of all the secrets found.`,
   buttonText: 'Configure Secret Scan',
 };
 const malwareScanData = {
   scanTitle: 'Malware Scan',
   scanType: ScanTypeEnum.MalwareScan,
-  description: `Deepfence Malware scans container images, running Docker containers, and filesystems to find indicators of malware. It uses ruleset to identify resources that match known malware signatures, and may indicate that the container or filesystem has been compromised.`,
+  description: `AssetVigil Malware scans container images, running Docker containers, and filesystems to find indicators of malware. It uses ruleset to identify resources that match known malware signatures, and may indicate that the container or filesystem has been compromised.`,
   buttonText: 'Configure Malware Scan',
 };
 

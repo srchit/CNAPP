@@ -52,7 +52,7 @@ export const OnboardAppHeader = () => {
             <DeepfenceLogo mode={mode} />
           </span>
           <span className="dark:text-text-text-and-icon text-text-text-inverse text-[18px] leading-9">
-            deepfence
+            AssetVigil
           </span>
           <DFLink
             unstyled

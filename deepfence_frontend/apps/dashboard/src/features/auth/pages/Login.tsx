@@ -13,7 +13,7 @@ export const Login = () => {
       <h1 className="text-p1a font-normal text-center text-text-text-and-icon">
         Welcome to
         <br />
-        <span className="text-h2">Deepfence portal</span>
+        <span className="text-h2">AssetVigil portal</span>
       </h1>
       <div className="mt-10">
         <TextInput

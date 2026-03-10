@@ -117,7 +117,7 @@ export const DockerConnectorForm = () => {
           title="Connect Docker Container"
         >
           <div className="text-p7a text-text-text-and-icon">
-            Deploy Deepfence agent sensor as a docker container. Find out more information
+            Deploy AssetVigil agent sensor as a docker container. Find out more information
             by{' '}
             <DFLink
               href={`https://threatmapper.org/threatmapper/docs/v2.5/sensors/docker`}

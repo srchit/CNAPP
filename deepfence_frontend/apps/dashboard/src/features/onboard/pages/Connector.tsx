@@ -29,26 +29,26 @@ const Connector = () => {
 
   if (ACCOUNT_CONNECTOR.DOCKER === connectorType) {
     title = 'Connect a Docker Container';
-    description = 'Deploy all modules for Deepfence Scanner at your docker container.';
+    description = 'Deploy all modules for AssetVigil Scanner at your docker container.';
   } else if (ACCOUNT_CONNECTOR.KUBERNETES === connectorType) {
     title = 'Connect a Kubernetes Cluster';
-    description = 'Deploy all modules for Deepfence Scanner at your kubernetes cluster.';
+    description = 'Deploy all modules for AssetVigil Scanner at your kubernetes cluster.';
   } else if (ACCOUNT_CONNECTOR.LINUX === connectorType) {
     title = 'Connect a Linux Machine';
-    description = 'Deploy all modules for Deepfence Scanner at your linux machine.';
+    description = 'Deploy all modules for AssetVigil Scanner at your linux machine.';
   } else if (ACCOUNT_CONNECTOR.AWS === connectorType) {
     title = 'Connect to Amazon Web Services';
-    description = 'Deploy all modules for Deepfence Scanner at your aws cloud.';
+    description = 'Deploy all modules for AssetVigil Scanner at your aws cloud.';
   } else if (ACCOUNT_CONNECTOR.AWS_ECS === connectorType) {
     title = 'Connect AWS ECS (EC2 Provider)';
     description = '';
   } else if (ACCOUNT_CONNECTOR.AZURE === connectorType) {
     title = 'Connect to Azure Cloud';
-    description = 'Deploy all modules for Deepfence Scanner at your azure cloud.';
+    description = 'Deploy all modules for AssetVigil Scanner at your azure cloud.';
   } else if (ACCOUNT_CONNECTOR.GCP === connectorType) {
     title = 'Connect to Google Cloud';
     description =
-      'Deploy all modules for Deepfence Scanner at your google cloud platform.';
+      'Deploy all modules for AssetVigil Scanner at your google cloud platform.';
   } else if (RegistryType.azure_container_registry === connectorType) {
     title = 'Connect to Azure Container Registry';
     description = '';

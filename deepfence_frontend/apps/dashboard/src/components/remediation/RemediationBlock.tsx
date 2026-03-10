@@ -287,7 +287,7 @@ function useAIIntegration({ meta }: { meta: RemediationCompletionProps['meta'] }
           setError('You do not have permission to perform this action.');
         } else {
           setError(
-            'Error generating remediation. Please try again later. Contact Deepfence support if error persists.',
+            'Error generating remediation. Please try again later. Contact AssetVigil support if error persists.',
           );
         }
         return;
@@ -299,7 +299,7 @@ function useAIIntegration({ meta }: { meta: RemediationCompletionProps['meta'] }
       if (!fetchResponse.body) {
         console.error('No body included in POST response object');
         setError(
-          'Error generating remediation. Please try again later. Contact Deepfence support if error persists.',
+          'Error generating remediation. Please try again later. Contact AssetVigil support if error persists.',
         );
         return;
       }

@@ -38,7 +38,7 @@ export function AppHeader() {
               <DeepfenceLogo mode={mode} />
             </div>
             <div className="dark:text-text-text-and-icon text-text-text-inverse text-[18px] leading-9">
-              deepfence
+              AssetVigil
             </div>
           </DFLink>
         </div>
